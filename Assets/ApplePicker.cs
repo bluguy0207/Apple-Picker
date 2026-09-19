@@ -53,7 +53,7 @@ public void AppleMissed()
     // If all baskets are gone, go to the Lose screen
     if (basketList.Count == 0)
     {
-        SceneManager.LoadScene("Scene_Lose");
+        SceneManager.LoadScene("__Scene_0");
     }
 }
 
